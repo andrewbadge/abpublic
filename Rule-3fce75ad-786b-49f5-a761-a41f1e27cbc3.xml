@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DNSRoamingRule xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ID>3fce75ad-786b-49f5-a761-a41f1e27cbc3</ID>
+  <UseNetworkType>true</UseNetworkType>
+  <NetworkType>Ethernet</NetworkType>
+  <NetworkNameIs />
+  <NetworkNameIsNot />
+  <AddressIsSpecific>false</AddressIsSpecific>
+  <AddressIsNotSpecific>true</AddressIsNotSpecific>
+  <AddressByType>0</AddressByType>
+  <AddressIP />
+  <AddressSubnet />
+  <DNSSet />
+  <DNSPreferred />
+  <DNSAlternative />
+  <DNS2ndAlternative />
+  <DNS3rdAlternative />
+  <ResetToDHCP>true</ResetToDHCP>
+  <DelaySeconds>5</DelaySeconds>
+  <RuleWasDownloaded>false</RuleWasDownloaded>
+  <RuleDownloadURL />
+  <PingType>1</PingType>
+  <PingAddress>192.168.0.3</PingAddress>
+</DNSRoamingRule>
