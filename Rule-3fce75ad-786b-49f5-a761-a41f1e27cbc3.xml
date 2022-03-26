@@ -2,7 +2,7 @@
 <DNSRoamingRule xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <ID>3fce75ad-786b-49f5-a761-a41f1e27cbc3</ID>
   <UseNetworkType>true</UseNetworkType>
-  <NetworkType>Ethernet</NetworkType>
+  <NetworkType>Ethernet,Wireless80211</NetworkType>
   <NetworkNameIs />
   <NetworkNameIsNot />
   <AddressIsSpecific>false</AddressIsSpecific>
@@ -17,8 +17,12 @@
   <DNS3rdAlternative />
   <ResetToDHCP>true</ResetToDHCP>
   <DelaySeconds>5</DelaySeconds>
-  <RuleWasDownloaded>false</RuleWasDownloaded>
-  <RuleDownloadURL />
-  <PingType>1</PingType>
-  <PingAddress>192.168.0.3</PingAddress>
+  <RuleWasDownloaded>true</RuleWasDownloaded>
+  <RuleDownloadURL>https://raw.githubusercontent.com/andrewbadge/abpublic/main/Rule-3fce75ad-786b-49f5-a761-a41f1e27cbc3.xml</RuleDownloadURL>
+  <PingType>0</PingType>
+  <PingAddress />
+  <DNSQueryType>1</DNSQueryType>
+  <DNSQueryDomainName>lgaufbkcy.lombadge.local</DNSQueryDomainName>
+  <DNSQueryServer>192.168.0.3</DNSQueryServer>
+  <DNSQueryRecordType>A</DNSQueryRecordType>
 </DNSRoamingRule>
